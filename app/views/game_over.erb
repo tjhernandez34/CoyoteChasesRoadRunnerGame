@@ -1,0 +1,22 @@
+<div id="background">
+  <img src="/images/looney_tunes_end.jpg" alt="that's all folks"/>
+  <div id="stats">
+    <table>
+      <tr>
+        <td><%#=@player1.name %></td>
+        <td><%#=@player2.name %></td>
+      </tr>
+      <tr>
+        <td><%#=@player1.wins %></td>
+        <td><%#=@player2.wins %></td>
+      </tr>
+      <tr>
+        <td><%#=@player1.games_played %></td>
+        <td><%#=@player2.games_played %></td>
+      </tr>
+    </table>
+  </div>
+  <form action="get">
+    <input type="submit">Play Again?</input>
+  </form>
+</div>

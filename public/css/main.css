@@ -1,0 +1,11 @@
+.welcome {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('/images/home-screen.png');
+  background-size: cover;
+  background-position: center;
+}

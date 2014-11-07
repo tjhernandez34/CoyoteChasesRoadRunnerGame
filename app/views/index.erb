@@ -1,0 +1,13 @@
+<section class="welcome">
+  <form class="signin-form" id="signin" action="/login" method="post">
+    <ul>
+      <% ['1', '2'].each do |num| %>
+      <li>
+        <input class="vertical-center form-field" type="text" name="player<%= num %>[email]" placeholder="Player <%= num %> Email" autofocus>
+        <input class="vertical-center form-field" type="password" name="player<%= num %>[password]" placeholder="Player <%= num %> Password">
+      </li>
+      <% end %>
+    </ul>
+    <input class="vertical-center btn-li" type="submit" value="That's All Folks!">
+  </form>
+</section>

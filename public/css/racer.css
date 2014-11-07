@@ -1,0 +1,78 @@
+/*#background {
+  background: url(../images/desert1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+img {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#canvas {
+  position: fixed;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+}
+
+.coyote,
+.road-runner {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.coyote {
+  background-image: url('../images/coyote.png');
+  top: 10%;
+  left: 10%;
+}
+
+.road-runner {
+  background-image: url('../images/road-runner.png');
+  bottom: 10%;
+  right: 10%;
+}
+
+h1 {
+  color: red;
+  font-size:8em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Arial', sans-serif;
+  z-index: 2;
+}
+
+#background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#background img {
+  height: 100%;
+  width:100%;
+}
+
+#stats {
+  visibility: hidden;
+}
